@@ -2,25 +2,24 @@ goldminelvl=1;
 forestlvl=1;
 foodfieldlvl=1;
 
-document.addEventListener("DOMContentLoaded", upgrades);
+document.addEventListener("DOMContentLoaded", ready);
 
-function upgrades(){
+function ready(){
     document.getElementById("goldminelvl").innerHTML = "Goldmine lvl: " + goldminelvl;
     document.getElementById("forestlvl").innerHTML = "Forest lvl: " + forestlvl;
     document.getElementById("foodfieldlvl").innerHTML = "Foodfield lvl: " + foodfieldlvl;
-
 }
 
 function upgradegold(){
-    document.getElementById("goldminelvl").innerHTML = "Goldmine lvl: " + goldminelvl;
     goldminelvl++;
+    document.getElementById("goldminelvl").innerHTML = "Goldmine lvl: " + goldminelvl;
 }
 
 function upgradeforest(){
-    document.getElementById("forestlvl").innerHTML = "Forest lvl: " + forestlvl;
     forestlvl++;
+    document.getElementById("forestlvl").innerHTML = "Forest lvl: " + forestlvl;
 }
 function upgradefood(){
-    document.getElementById("foodfieldlvl").innerHTML = "Foodfield lvl: " + foodfieldlvl;
     foodfieldlvl++;
+    document.getElementById("foodfieldlvl").innerHTML = "Foodfield lvl: " + foodfieldlvl;
 }
