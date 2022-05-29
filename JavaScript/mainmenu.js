@@ -10,6 +10,8 @@ foodlimit=5000;
 
 document.addEventListener("DOMContentLoaded", ready);
 
+<div w3-include-html="mainmenu.html"></div>
+
 setInterval(function(){ 
     if(goldvalue<goldlimit){
 		document.getElementById("gold").innerHTML = "Gold: " + goldvalue;
