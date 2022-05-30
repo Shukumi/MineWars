@@ -1,4 +1,6 @@
 
+document.addEventListener("DOMContentLoaded", ready);
+
 function login() {
     if (document.getElementById("username").value == "admin" & document.getElementById("password").value == "zdw")
         window.location.href="../HTML/mainmenu.html";  
@@ -8,3 +10,9 @@ function login() {
         window.alert("du bist zu dumm für alles");    
 
 }
+
+function ready() {
+	document.getElementById("username").value = "admin"
+	document.getElementById("password").value = "zdw"
+	 
+  }
