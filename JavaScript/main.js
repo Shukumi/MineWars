@@ -11,3 +11,8 @@ function testFunction() {
 		document.getElementById("test").style.color = "black";
 
 	}
+
+function initiateAccount() {
+	let user = new player(Steven, 0, 2, 10, 11, 12, 13)
+	return user.foodvalue;
+}
